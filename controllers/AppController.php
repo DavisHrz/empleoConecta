@@ -9,7 +9,9 @@ class AppController {
     }
 
     function helloworld(){
+        require_once "./views/view_header.php";
         require_once "./views/view_helloWorld.php";
+        require_once "./views/view_footer.php";
     }
     
     
