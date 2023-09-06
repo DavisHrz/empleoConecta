@@ -9,6 +9,8 @@ $ROOT_URL = '/web/empleoconecta';       // Ruta raiz
 $routes = [                             // Rutas de la pagina
     # Home
     $ROOT_URL.'/' => 'AppController@index',
+    $ROOT_URL.'/hello' => 'AppController@helloworld',
+    
 ];
 
 
